@@ -1,0 +1,118 @@
+
+body {
+    margin: 0;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+:root {
+    --color1: #eebb12;
+    --color2: #fff;
+    --bg1: #070707;
+    --bg2: #111;
+}
+
+.btn-bg {
+    display: block;
+    max-width: 200px;
+    margin: 0 auto;
+    color: var(--bs-dark);
+    font-weight: 500;
+    background-color: var(--color1);
+}
+
+.color1 {
+    color: var(--color1);
+}
+
+p, h1, h2, h4, h5, h6, h3, ul, li {
+    color: white;
+}
+
+header, footer {
+    background: #45484d;
+    background: url("../img/pattern.png"), -moz-linear-gradient(left, #45484d 0%, #000000 100%);
+    background: url("../img/pattern.png"), -webkit-linear-gradient(left, #45484d 0%, #000000 100%);
+    background: url("../img/pattern.png"), linear-gradient(to right, #45484d 0%, #000000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#45484d', endColorstr='#000000', GradientType=1);
+}
+
+header {
+    padding: 145px 0;
+}
+
+/*об авторе*/
+section {
+    padding: 100px 0;
+    background-color: var(--bg1);
+}
+
+.author {
+    padding-bottom: 0;
+}
+
+/*О курсе*/
+.course {
+    background-color: var(--bg2);
+}
+
+.circle {
+    margin: 0 auto 15px;
+    width: 70px;
+    height: 70px;
+    border: 3px solid var(--color1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i {
+    font-size: 25px;
+    color: var(--color1);
+}
+
+.line {
+    width: 100px;
+    height: 3px;
+    background-color: var(--color1);
+    margin: 15px auto;
+}
+
+.bg-1 {
+    background-color: var(--bg1);
+}
+
+
+/*Видео стил */
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* курс тля тех*/
+.forwhom{
+    background-color: var(--bg1);
+}
+.forwhom h5 {
+    padding: 30px;
+    height: 100%;
+    background-color: var(--bg2);
+}
